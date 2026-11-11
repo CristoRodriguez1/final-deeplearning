@@ -1,0 +1,24 @@
+{
+  "classes": [
+    "sana",
+    "minador",
+    "roya",
+    "phoma",
+    "cercospora"
+  ],
+  "classes_en": [
+    "healthy",
+    "miner",
+    "rust",
+    "phoma",
+    "cercospora"
+  ],
+  "class_weights": [
+    1.241,
+    0.87,
+    0.634,
+    0.97,
+    2.289
+  ],
+  "seed": 42
+}

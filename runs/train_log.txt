@@ -1,0 +1,238 @@
+  ds_tr = TensorImageDataset(X[tr], bra.label.values[tr], get_transforms(cfg["aug"]))
+[effnet_b0] ep 01 | loss 4.010/1.771 | F1 0.242/0.552 | 223.9s *
+[effnet_b0] ep 02 | loss 2.166/1.219 | F1 0.523/0.675 | 222.4s *
+[effnet_b0] ep 03 | loss 1.538/1.045 | F1 0.633/0.704 | 226.2s *
+[effnet_b0] ep 04 | loss 1.299/0.898 | F1 0.679/0.811 | 219.5s *
+[effnet_b0] ep 05 | loss 1.071/0.941 | F1 0.756/0.784 | 229.9s
+[effnet_b0] ep 06 | loss 1.020/0.841 | F1 0.760/0.844 | 241.0s *
+[effnet_b0] ep 07 | loss 0.933/0.845 | F1 0.809/0.833 | 251.0s
+[effnet_b0] ep 08 | loss 0.951/0.795 | F1 0.781/0.859 | 251.0s *
+[effnet_b0] ep 09 | loss 0.915/0.743 | F1 0.804/0.860 | 258.1s *
+[effnet_b0] ep 10 | loss 0.886/0.724 | F1 0.807/0.846 | 207.2s
+[effnet_b0] ep 11 | loss 0.817/0.745 | F1 0.834/0.855 | 194.3s
+[effnet_b0] ep 12 | loss 0.783/0.718 | F1 0.845/0.895 | 198.5s *
+[effnet_b0] ep 13 | loss 0.805/0.714 | F1 0.843/0.867 | 208.0s
+[effnet_b0] ep 14 | loss 0.760/0.699 | F1 0.854/0.863 | 184.5s
+[effnet_b0] ep 15 | loss 0.777/0.690 | F1 0.848/0.872 | 173.0s
+[effnet_b0] ep 16 | loss 0.741/0.673 | F1 0.869/0.881 | 190.6s
+[effnet_b0] ep 17 | loss 0.743/0.658 | F1 0.879/0.905 | 204.9s *
+[effnet_b0] ep 18 | loss 0.729/0.663 | F1 0.876/0.870 | 197.5s
+[effnet_b0] ep 19 | loss 0.699/0.651 | F1 0.893/0.915 | 209.3s *
+[effnet_b0] ep 20 | loss 0.705/0.648 | F1 0.894/0.899 | 210.6s
+[effnet_b0] ep 21 | loss 0.712/0.647 | F1 0.876/0.884 | 215.4s
+[effnet_b0] ep 22 | loss 0.716/0.642 | F1 0.874/0.896 | 208.4s
+[effnet_b0] ep 23 | loss 0.694/0.647 | F1 0.890/0.888 | 197.4s
+[effnet_b0] ep 24 | loss 0.666/0.642 | F1 0.900/0.903 | 197.4s
+[effnet_b0] ep 25 | loss 0.681/0.647 | F1 0.894/0.897 | 194.5s
+{
+  "run": "effnet_b0",
+  "config": {
+    "batch": 32,
+    "warmup": 2,
+    "label_smoothing": 0.1,
+    "seed": 42,
+    "max_train": null,
+    "arch": "effnet_b0",
+    "lr": 0.0003,
+    "wd": 0.01,
+    "epochs": 25,
+    "aug": "train",
+    "patience": 8
+  },
+  "params": {
+    "total": 4013953,
+    "entrenables": 4013953
+  },
+  "best_epoch": 19,
+  "best_val_f1": 0.9149811749666276,
+  "epochs_run": 25,
+  "train_time_s": 5315.318297863007,
+  "hardware": {
+    "python": "3.13.7",
+    "torch": "2.15.0+cpu",
+    "cpu": "Intel64 Family 6 Model 140 Stepping 2, GenuineIntel",
+    "ram_gb": 21.2
+  },
+  "n_train": 1179,
+  "n_val": 253
+}
+  ds_tr = TensorImageDataset(X[tr], bra.label.values[tr], get_transforms(cfg["aug"]))
+[vit_tiny] ep 01 | loss 1.830/1.350 | F1 0.258/0.560 | 132.3s *
+[vit_tiny] ep 02 | loss 1.063/0.772 | F1 0.667/0.829 | 132.2s *
+[vit_tiny] ep 03 | loss 0.818/0.730 | F1 0.812/0.822 | 128.0s
+[vit_tiny] ep 04 | loss 0.785/0.695 | F1 0.826/0.843 | 127.4s *
+[vit_tiny] ep 05 | loss 0.708/0.701 | F1 0.862/0.809 | 126.6s
+[vit_tiny] ep 06 | loss 0.693/0.701 | F1 0.863/0.823 | 132.2s
+[vit_tiny] ep 07 | loss 0.673/0.734 | F1 0.869/0.839 | 129.4s
+[vit_tiny] ep 08 | loss 0.674/0.649 | F1 0.881/0.896 | 131.0s *
+[vit_tiny] ep 09 | loss 0.666/0.622 | F1 0.883/0.914 | 127.8s *
+[vit_tiny] ep 10 | loss 0.695/0.611 | F1 0.871/0.918 | 128.0s *
+[vit_tiny] ep 11 | loss 0.659/0.620 | F1 0.889/0.888 | 125.4s
+[vit_tiny] ep 12 | loss 0.638/0.645 | F1 0.894/0.863 | 125.8s
+[vit_tiny] ep 13 | loss 0.621/0.634 | F1 0.904/0.909 | 126.0s
+[vit_tiny] ep 14 | loss 0.582/0.621 | F1 0.926/0.879 | 130.0s
+[vit_tiny] ep 15 | loss 0.594/0.593 | F1 0.918/0.883 | 127.8s
+[vit_tiny] ep 16 | loss 0.584/0.622 | F1 0.932/0.863 | 125.6s
+[vit_tiny] ep 17 | loss 0.589/0.581 | F1 0.911/0.921 | 125.7s *
+[vit_tiny] ep 18 | loss 0.570/0.578 | F1 0.927/0.935 | 126.8s *
+[vit_tiny] ep 19 | loss 0.577/0.574 | F1 0.922/0.922 | 129.5s
+[vit_tiny] ep 20 | loss 0.549/0.568 | F1 0.950/0.926 | 127.5s
+[vit_tiny] ep 21 | loss 0.570/0.570 | F1 0.931/0.919 | 125.7s
+[vit_tiny] ep 22 | loss 0.561/0.569 | F1 0.945/0.919 | 127.5s
+[vit_tiny] ep 23 | loss 0.565/0.567 | F1 0.940/0.917 | 120.5s
+[vit_tiny] ep 24 | loss 0.548/0.568 | F1 0.944/0.922 | 132.3s
+[vit_tiny] ep 25 | loss 0.559/0.568 | F1 0.934/0.922 | 124.9s
+{
+  "run": "vit_tiny",
+  "config": {
+    "batch": 32,
+    "warmup": 2,
+    "label_smoothing": 0.1,
+    "seed": 42,
+    "max_train": null,
+    "arch": "vit_tiny",
+    "lr": 0.0001,
+    "wd": 0.05,
+    "epochs": 25,
+    "aug": "train",
+    "patience": 8
+  },
+  "params": {
+    "total": 5525381,
+    "entrenables": 5525381
+  },
+  "best_epoch": 18,
+  "best_val_f1": 0.9348749800923715,
+  "epochs_run": 25,
+  "train_time_s": 3196.0111470222473,
+  "hardware": {
+    "python": "3.13.7",
+    "torch": "2.15.0+cpu",
+    "cpu": "Intel64 Family 6 Model 140 Stepping 2, GenuineIntel",
+    "ram_gb": 21.2
+  },
+  "n_train": 1179,
+  "n_val": 253
+}
+  ds_tr = TensorImageDataset(X[tr], bra.label.values[tr], get_transforms(cfg["aug"]))
+[cnn_base] ep 01 | loss 1.585/1.685 | F1 0.300/0.056 | 225.1s *
+[cnn_base] ep 02 | loss 1.459/1.506 | F1 0.408/0.472 | 228.4s *
+[cnn_base] ep 03 | loss 1.398/2.652 | F1 0.434/0.116 | 225.3s
+[cnn_base] ep 04 | loss 1.371/1.518 | F1 0.473/0.413 | 224.6s
+[cnn_base] ep 05 | loss 1.299/1.412 | F1 0.513/0.432 | 220.9s
+[cnn_base] ep 06 | loss 1.175/1.181 | F1 0.615/0.576 | 225.2s *
+[cnn_base] ep 07 | loss 1.149/1.155 | F1 0.627/0.592 | 222.7s *
+[cnn_base] ep 08 | loss 1.058/0.970 | F1 0.689/0.698 | 227.1s *
+[cnn_base] ep 09 | loss 1.074/0.994 | F1 0.683/0.733 | 222.1s *
+[cnn_base] ep 10 | loss 1.003/1.229 | F1 0.713/0.460 | 231.3s
+[cnn_base] ep 11 | loss 0.969/0.933 | F1 0.727/0.783 | 204.7s *
+[cnn_base] ep 12 | loss 0.927/0.901 | F1 0.768/0.738 | 223.1s
+[cnn_base] ep 13 | loss 0.907/0.907 | F1 0.775/0.732 | 218.4s
+[cnn_base] ep 14 | loss 0.884/0.882 | F1 0.783/0.749 | 222.1s
+[cnn_base] ep 15 | loss 0.871/0.877 | F1 0.794/0.834 | 219.2s *
+[cnn_base] ep 16 | loss 0.877/0.842 | F1 0.786/0.855 | 208.8s *
+[cnn_base] ep 17 | loss 0.835/0.787 | F1 0.819/0.784 | 209.0s
+[cnn_base] ep 18 | loss 0.829/0.915 | F1 0.819/0.766 | 213.8s
+[cnn_base] ep 19 | loss 0.807/0.794 | F1 0.829/0.877 | 213.3s *
+[cnn_base] ep 20 | loss 0.811/0.901 | F1 0.810/0.774 | 208.6s
+[cnn_base] ep 21 | loss 0.809/0.784 | F1 0.825/0.840 | 211.7s
+[cnn_base] ep 22 | loss 0.768/0.763 | F1 0.849/0.838 | 209.2s
+[cnn_base] ep 23 | loss 0.780/0.815 | F1 0.841/0.818 | 218.0s
+[cnn_base] ep 24 | loss 0.798/0.752 | F1 0.829/0.831 | 214.3s
+[cnn_base] ep 25 | loss 0.796/0.751 | F1 0.826/0.816 | 214.5s
+[cnn_base] ep 26 | loss 0.753/0.739 | F1 0.844/0.859 | 215.0s
+[cnn_base] ep 27 | loss 0.750/0.755 | F1 0.850/0.855 | 214.3s
+[cnn_base] ep 28 | loss 0.756/0.723 | F1 0.852/0.863 | 211.3s
+[cnn_base] ep 29 | loss 0.731/0.730 | F1 0.859/0.864 | 214.6s
+[cnn_base] early stopping en la época 29 (sin mejora en 10 épocas)
+{
+  "run": "cnn_base",
+  "config": {
+    "batch": 32,
+    "warmup": 2,
+    "label_smoothing": 0.1,
+    "seed": 42,
+    "max_train": null,
+    "arch": "cnn",
+    "lr": 0.001,
+    "wd": 0.0001,
+    "epochs": 40,
+    "aug": "train",
+    "patience": 10
+  },
+  "params": {
+    "total": 1174501,
+    "entrenables": 1174501
+  },
+  "best_epoch": 19,
+  "best_val_f1": 0.876512294717655,
+  "epochs_run": 29,
+  "train_time_s": 6316.530523061752,
+  "hardware": {
+    "python": "3.13.7",
+    "torch": "2.15.0+cpu",
+    "cpu": "Intel64 Family 6 Model 140 Stepping 2, GenuineIntel",
+    "ram_gb": 21.2
+  },
+  "n_train": 1179,
+  "n_val": 253
+}
+  ds_tr = TensorImageDataset(X[tr], bra.label.values[tr], get_transforms(cfg["aug"]))
+[effnet_b0_sinaug] ep 01 | loss 3.330/1.760 | F1 0.337/0.589 | 177.7s *
+[effnet_b0_sinaug] ep 02 | loss 1.593/1.131 | F1 0.644/0.739 | 176.6s *
+[effnet_b0_sinaug] ep 03 | loss 1.247/1.010 | F1 0.737/0.765 | 179.7s *
+[effnet_b0_sinaug] ep 04 | loss 0.975/0.851 | F1 0.801/0.822 | 172.2s *
+[effnet_b0_sinaug] ep 05 | loss 0.840/0.833 | F1 0.844/0.861 | 174.2s *
+[effnet_b0_sinaug] ep 06 | loss 0.787/0.891 | F1 0.862/0.842 | 172.6s
+[effnet_b0_sinaug] ep 07 | loss 0.740/0.777 | F1 0.882/0.847 | 170.0s
+[effnet_b0_sinaug] ep 08 | loss 0.685/0.803 | F1 0.912/0.812 | 206.9s
+[effnet_b0_sinaug] ep 09 | loss 0.682/0.781 | F1 0.903/0.847 | 196.8s
+[effnet_b0_sinaug] ep 10 | loss 0.623/0.755 | F1 0.933/0.865 | 192.0s *
+[effnet_b0_sinaug] ep 11 | loss 0.622/0.751 | F1 0.940/0.880 | 192.0s *
+[effnet_b0_sinaug] ep 12 | loss 0.596/0.697 | F1 0.962/0.895 | 191.7s *
+[effnet_b0_sinaug] ep 13 | loss 0.592/0.715 | F1 0.961/0.877 | 203.7s
+[effnet_b0_sinaug] ep 14 | loss 0.576/0.707 | F1 0.960/0.876 | 177.4s
+[effnet_b0_sinaug] ep 15 | loss 0.569/0.718 | F1 0.970/0.900 | 202.8s *
+[effnet_b0_sinaug] ep 16 | loss 0.557/0.697 | F1 0.976/0.892 | 191.5s
+[effnet_b0_sinaug] ep 17 | loss 0.556/0.704 | F1 0.971/0.899 | 176.9s
+[effnet_b0_sinaug] ep 18 | loss 0.544/0.706 | F1 0.979/0.901 | 151.7s *
+[effnet_b0_sinaug] ep 19 | loss 0.550/0.716 | F1 0.977/0.893 | 160.6s
+[effnet_b0_sinaug] ep 20 | loss 0.544/0.706 | F1 0.984/0.911 | 187.9s *
+[effnet_b0_sinaug] ep 21 | loss 0.533/0.694 | F1 0.987/0.904 | 187.6s
+[effnet_b0_sinaug] ep 22 | loss 0.532/0.699 | F1 0.988/0.913 | 188.7s *
+[effnet_b0_sinaug] ep 23 | loss 0.540/0.696 | F1 0.981/0.906 | 179.3s
+[effnet_b0_sinaug] ep 24 | loss 0.530/0.701 | F1 0.992/0.900 | 182.8s
+[effnet_b0_sinaug] ep 25 | loss 0.540/0.696 | F1 0.979/0.910 | 185.1s
+{
+  "run": "effnet_b0_sinaug",
+  "config": {
+    "batch": 32,
+    "warmup": 2,
+    "label_smoothing": 0.1,
+    "seed": 42,
+    "max_train": null,
+    "arch": "effnet_b0",
+    "lr": 0.0003,
+    "wd": 0.01,
+    "epochs": 25,
+    "aug": "train_min",
+    "patience": 8
+  },
+  "params": {
+    "total": 4013953,
+    "entrenables": 4013953
+  },
+  "best_epoch": 22,
+  "best_val_f1": 0.9128718178701825,
+  "epochs_run": 25,
+  "train_time_s": 4579.278335571289,
+  "hardware": {
+    "python": "3.13.7",
+    "torch": "2.15.0+cpu",
+    "cpu": "Intel64 Family 6 Model 140 Stepping 2, GenuineIntel",
+    "ram_gb": 21.2
+  },
+  "n_train": 1179,
+  "n_val": 253
+}
+FIN

@@ -1,0 +1,6 @@
+lado,clase,acierto_raw,acierto_crop,acierto_mask
+?,roya,1.0,0.0,0.0
+envés,roya,0.648,0.655,0.463
+envés,sana,0.066,0.137,0.919
+haz,roya,0.688,0.685,0.599
+haz,sana,0.018,0.065,0.701

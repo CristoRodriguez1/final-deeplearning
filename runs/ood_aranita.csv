@@ -1,0 +1,4 @@
+versión,sana,minador,roya,phoma,cercospora,confianza media OOD,confianza media sana/roya,AUROC detección OOD (MSP)
+raw,0.006,0.216,0.545,0.132,0.102,0.539,0.513,0.448
+crop,0.012,0.317,0.365,0.12,0.186,0.549,0.521,0.456
+mask,0.06,0.461,0.216,0.144,0.12,0.665,0.703,0.569

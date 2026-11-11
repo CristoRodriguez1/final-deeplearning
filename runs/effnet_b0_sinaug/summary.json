@@ -1,0 +1,32 @@
+{
+  "run": "effnet_b0_sinaug",
+  "config": {
+    "batch": 32,
+    "warmup": 2,
+    "label_smoothing": 0.1,
+    "seed": 42,
+    "max_train": null,
+    "arch": "effnet_b0",
+    "lr": 0.0003,
+    "wd": 0.01,
+    "epochs": 25,
+    "aug": "train_min",
+    "patience": 8
+  },
+  "params": {
+    "total": 4013953,
+    "entrenables": 4013953
+  },
+  "best_epoch": 22,
+  "best_val_f1": 0.9128718178701825,
+  "epochs_run": 25,
+  "train_time_s": 4579.278335571289,
+  "hardware": {
+    "python": "3.13.7",
+    "torch": "2.15.0+cpu",
+    "cpu": "Intel64 Family 6 Model 140 Stepping 2, GenuineIntel",
+    "ram_gb": 21.2
+  },
+  "n_train": 1179,
+  "n_val": 253
+}

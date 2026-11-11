@@ -1,0 +1,7 @@
+{
+  "python": "3.13.7",
+  "torch": "2.15.0+cpu",
+  "cpu": "Intel64 Family 6 Model 140 Stepping 2, GenuineIntel",
+  "ram_gb": 21.2,
+  "cpu_cores": 8
+}

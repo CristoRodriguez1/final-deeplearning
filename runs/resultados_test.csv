@@ -1,0 +1,5 @@
+modelo,accuracy,precision_macro,recall_macro,f1_macro,params_M,entrenamiento_min,ms_img_gpu,ms_img_cpu
+CNN base,0.8419,0.8095,0.8181,0.8083,1.1745,105.2755,,67.2872
+EfficientNet-B0,0.8814,0.8606,0.8851,0.8635,4.014,88.5886,,53.1845
+ViT-Tiny,0.8735,0.8457,0.8447,0.8426,5.5254,53.2669,,44.6759
+EffNet-B0 sin aum.,0.8814,0.8495,0.8541,0.8513,4.014,76.3213,,41.0622

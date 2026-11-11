@@ -1,0 +1,16 @@
+# Entorno y dependencias
+.venv/
+tools/node_modules/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Datos pesados (se descargan con notebooks/01_datos_y_eda.ipynb o src/data.py)
+data/raw/
+data/cache/
+data/processed/rocole/
+
+# Copias y temporales
+resultados.zip
+~$*
+*.part

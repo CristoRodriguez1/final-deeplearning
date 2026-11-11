@@ -1,0 +1,17 @@
+modelo,dominio,acc_5clases,accuracy,f1_enferma,recall_enferma,recall_sana,auroc
+CNN base,BRACOL test,0.8419,0.9723,0.9832,0.967,1.0,1.0
+CNN base,RoCoLe raw,0.2161,0.4896,0.6171,0.9518,0.1378,0.5727
+CNN base,RoCoLe crop,0.285,0.5097,0.6314,0.9718,0.158,0.7022
+CNN base,RoCoLe mask,0.771,0.8658,0.8283,0.7492,0.9545,0.9171
+EfficientNet-B0,BRACOL test,0.8814,1.0,1.0,1.0,1.0,1.0
+EfficientNet-B0,RoCoLe raw,0.5513,0.5707,0.5372,0.5764,0.5664,0.5905
+EfficientNet-B0,RoCoLe crop,0.5061,0.5312,0.6011,0.8173,0.3135,0.6141
+EfficientNet-B0,RoCoLe mask,0.6963,0.7846,0.7826,0.897,0.6991,0.8959
+ViT-Tiny,BRACOL test,0.8735,1.0,1.0,1.0,1.0,1.0
+ViT-Tiny,RoCoLe raw,0.313,0.4537,0.6115,0.995,0.0417,0.7531
+ViT-Tiny,RoCoLe crop,0.3467,0.4846,0.6237,0.9884,0.1011,0.8007
+ViT-Tiny,RoCoLe mask,0.6899,0.8514,0.8406,0.907,0.8091,0.9263
+EffNet-B0 sin aum.,BRACOL test,0.8814,0.9921,0.9953,0.9906,1.0,0.9998
+EffNet-B0 sin aum.,RoCoLe raw,0.4393,0.5233,0.2622,0.196,0.7724,0.4263
+EffNet-B0 sin aum.,RoCoLe crop,0.3223,0.4436,0.3348,0.3239,0.5348,0.3972
+EffNet-B0 sin aum.,RoCoLe mask,0.3826,0.5542,0.5299,0.5814,0.5335,0.5882

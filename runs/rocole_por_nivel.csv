@@ -1,0 +1,6 @@
+rocole_class,% predicho enfermo (raw),% predicho enfermo (crop),% predicho enfermo (mask)
+healthy,0.958,0.899,0.191
+rust_level_1,0.991,0.98,0.84
+rust_level_2,1.0,1.0,0.994
+rust_level_3,1.0,1.0,1.0
+rust_level_4,1.0,1.0,1.0
