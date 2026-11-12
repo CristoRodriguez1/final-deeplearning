@@ -29,7 +29,7 @@ cellb = ParagraphStyle("tb", parent=cell, fontName="Times-Bold", textColor=color
 
 
 def P(t, st=base):
-    return Paragraph(t.replace(" %", "00a0%"), st)
+    return Paragraph(t.replace(" %", "&nbsp;%"), st)
 
 
 def fig(name, width_cm):
