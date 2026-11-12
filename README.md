@@ -17,9 +17,8 @@ El rendimiento cae fuertemente en fotos de campo y se recupera en buena parte al
 cambia el test interno, pero es decisivo para generalizar. Entrenamiento en CPU (Intel i5-1155G7, 20 GB RAM; Colab no asignó GPU).
 
 ## Entregables
-- `entregables/Presentacion_ProyectoFinal.pptx`: 18 diapositivas con notas del orador por integrante.
+- `entregables/Presentacion_ProyectoFinal.pptx`: presentación (18 diapositivas).
 - `entregables/Informe_ProyectoFinal.pdf`: informe de 3 páginas.
-- `entregables/Guia_preguntas.md`: preparación para las preguntas, cifras clave y texto del correo de entrega.
 - `notebooks/`: los tres notebooks ejecutados, con salidas.
 
 ## Estructura
@@ -35,7 +34,7 @@ src/
 data/processed/  tablas de etiquetas y partición (bracol_leaf.csv, rocole.csv, meta.json)
 runs/            historiales, resúmenes y métricas de cada corrida
 figures/         todas las figuras usadas en la presentación y el informe
-entregables/     presentación (.pptx), informe (.pdf) y guía de preguntas
+entregables/     presentación (.pptx) e informe (.pdf)
 ```
 
 ## Cómo reproducir

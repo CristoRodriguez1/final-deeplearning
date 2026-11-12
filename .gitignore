@@ -14,3 +14,7 @@ data/processed/rocole/
 resultados.zip
 ~$*
 *.part
+
+# Material interno del equipo
+privado/
+entregables/Codigo_ProyectoFinal/

@@ -107,7 +107,7 @@ const chartBase = (title) => ({
     ],
     slideNumber: { x: 9.0, y: 5.28, w: 0.5, h: 0.25, fontFace: B, fontSize: 9, color: "C9BFB5", align: "right" },
   });
-  const add = (master, section) => pres.addSlide({ masterName: master, sectionTitle: section });
+  const add = (master, section) => { const s = pres.addSlide({ masterName: master, sectionTitle: section }); s.addNotes = () => s; return s; };
 
   const D = R.datos, best = R.runs[BEST], bt = R.test[BEST];
   const raw = ext(BEST, "RoCoLe raw"), crop = ext(BEST, "RoCoLe crop"), mask = ext(BEST, "RoCoLe mask"), btest = ext(BEST, "BRACOL test");
